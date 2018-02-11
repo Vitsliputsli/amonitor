@@ -1,0 +1,18 @@
+<?php
+
+return [
+    'class' => 'yii\db\Connection',
+    'dsn' => 'mysql:host=localhost;dbname=monitoring',
+    'username' => 'monitoring',
+    'password' => 'monitoring',
+    'charset' => 'UTF8',
+    'attributes' => [
+        PDO::ATTR_STRINGIFY_FETCHES => true
+    ],
+    'enableSchemaCache' => true
+
+    // Schema cache options (for production environment)
+    //'enableSchemaCache' => true,
+    //'schemaCacheDuration' => 60,
+    //'schemaCache' => 'cache',
+];

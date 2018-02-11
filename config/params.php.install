@@ -1,0 +1,15 @@
+<?php
+
+return [
+    'adminEmail' => 'ivan.kuchukov@gmail.com',
+    'dbNames' => ['dbMonitor'=>'monitoring'], // array of database names for editors
+    'updateToken' => 'admin', // token for synchronization by web
+    'mail' => [
+        'class' => 'Swift_SmtpTransport',
+        'host' => '',
+        'username' => '',
+        'password' => '',
+        'port' => '',
+        'encryption' => 'tls',
+    ],
+];
